@@ -1,0 +1,58 @@
+{
+  "name": "rybookstore",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.15.0",
+    "babel-plugin-import": "^1.13.3",
+    "bootstrap": "^4.6.0",
+    "customize-cra": "^1.0.0",
+    "history": "^5.0.0",
+    "less": "^4.1.1",
+    "less-loader": "^5.0.0",
+    "react": "^17.0.1",
+    "react-app-rewired": "2.x",
+    "react-bootstrap": "^1.5.2",
+    "react-css-modules": "^4.7.11",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "^4.0.3",
+    "react-slick": "^0.28.1",
+    "react-slider-light": "^4.2.0",
+    "recharts": "^2.0.9",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "config": "^3.3.6",
+    "reqwest": "^2.0.5"
+  }
+}

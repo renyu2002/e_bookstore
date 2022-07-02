@@ -1,0 +1,96 @@
+div.fancy-select {
+	position: relative;
+	font-size: 14px;
+	line-height: 16px;
+	color: #978379;
+	width: 191px;
+	text-align: left;
+}
+
+div.fancy-select.disabled {
+	opacity: 0.5;
+}
+
+div.fancy-select select:focus + div.trigger {
+	
+}
+
+div.fancy-select select:focus + div.trigger.open {
+	box-shadow: none;
+}
+
+div.fancy-select div.trigger {
+	cursor: pointer;
+	padding: 11px 30px 11px 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+	border: 1px solid #cdcdcd;
+	background: url(../assets/arrows_select.png) no-repeat 94% 50% #ece8e2;
+	color: #978379;
+	min-width: 149px;
+	border-radius: 5px;
+	behavior: url(PIE.htc);
+	border-top: 2px solid #d2c7b6;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+}
+
+div.fancy-select div.trigger.open {
+
+}
+
+div.fancy-select div.trigger.open:after {
+
+}
+
+div.fancy-select ul.options {
+	list-style: none;
+	margin: -3px 0 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 50;
+	overflow: auto;
+	background: #ece8e2;
+	min-width: 191px;
+	border-radius: 0 0 5px 5px;
+
+}
+
+div.fancy-select ul.options.open {
+	visibility: visible;
+	top: 100%;
+	opacity: 1;
+}
+
+div.fancy-select ul.options.overflowing {
+	top: auto;
+	bottom: 40px;
+}
+
+div.fancy-select ul.options.overflowing.open {
+	top: auto;
+	bottom: 50px;
+}
+
+div.fancy-select ul.options li {
+	padding: 8px 12px;
+	color: #6e6e6e;
+	cursor: pointer;
+	white-space: nowrap;
+	border:none;
+}
+
+div.fancy-select ul.options li.selected {
+	
+}
+
+div.fancy-select ul.options li.hover {
+	color: #fff;
+	background: #6e6e6e;
+}
